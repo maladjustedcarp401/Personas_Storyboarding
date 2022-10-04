@@ -1,0 +1,128 @@
+
+#images {
+    display: flex;
+    justify-content: center;
+}
+
+#images > div {
+    border-radius: 15px;
+    background-color: rgba(213, 245, 245);
+    border: solid rgba(213, 245, 245) 7px;
+}
+
+#images > div > img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 15px;
+}
+
+h1 {
+    color: gray;
+    font-weight: 80;
+}
+
+body {
+    background-color: #EFE1CE;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.empathyMap {
+    display: flex;
+    justify-content: center;
+}
+
+.empathyMap > div {
+    border-radius: 15px;
+    background-color: rgba(139, 245, 245, 0.5);
+    border: solid rgba(213, 245, 245) 5px;
+}
+
+.empathyMap > div > img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+.questions {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.questions > div {
+    width: 70%;
+    border-radius: 5%;
+    background-color: rgba(139, 245, 245, 0.5);
+    border: solid rgba(213, 245, 245) 5px;
+}
+
+.captions {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.captions > div {
+    width: 70%;
+    border-radius: 5%;
+    background-color: rgba(139, 245, 245, 0.5);
+    border: solid rgba(213, 245, 245) 5px;
+}
+
+.observations {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.observations > div {
+    width: 70%;
+    border-radius: 5%;
+    background-color: rgba(139, 245, 245, 0.5);
+    border: solid rgba(213, 245, 245) 5px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+#sketch1 #sketch2 {
+    display: flex;
+}
+
+#sketch1 > img {
+   max-width: auto;
+   max-height: 300px;
+}
+
+#sketch2 > img {
+    max-width: auto;
+    max-height: 500px;
+ }
+
+
+.questionReference {
+    font-weight: bolder;
+}
+
+.storyboard {
+    display: flex;
+    justify-content: center;
+}
+
+.storyboard > div {
+    border-radius: 15px;
+    background-color: rgba(139, 245, 245, 0.5);
+    border: solid rgba(213, 245, 245) 5px;
+}
+
+.storyboard > div > img {
+    border-radius: 15px;
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+}
